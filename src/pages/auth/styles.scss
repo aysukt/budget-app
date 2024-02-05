@@ -1,0 +1,83 @@
+.login-page {
+    width: 100vw;
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 2px 6px rgba(20, 31, 37, 0.54);
+    background: rgb(0, 204, 255);
+    background: linear-gradient(
+      90deg,
+      rgb(58, 157, 181) 0%,
+      rgb(143, 98, 183) 100%
+    );
+  
+    p {
+      font-size: 50px;
+      font-weight: bold;
+    }
+  
+    .login-with-email-btn,
+.sign-up-with-email-btn {
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.login-with-email-btn {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.sign-up-with-email-btn {
+  background-color: #2ecc71;
+  color: #ffffff;
+}
+
+.login-with-email-btn:hover,
+.sign-up-with-email-btn:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.login-with-email-btn:active,
+.sign-up-with-email-btn:active {
+  transform: translateY(2px);
+}
+.form-group {
+    margin-bottom: 20px;
+  
+    label {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: #333; 
+    }
+  
+    input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc; 
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin-top: 5px;
+  
+      &:focus {
+        outline: none;
+        border-color: #3498db; 
+      }
+    }
+  }
+  
+
+
+  }
+  
